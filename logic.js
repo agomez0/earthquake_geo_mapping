@@ -1,7 +1,6 @@
 var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 var earthquakes = new L.LayerGroup();
-var plates = new L.LayerGroup();
 
 d3.json(url).then(function(data) {
   L.geoJson(data, {

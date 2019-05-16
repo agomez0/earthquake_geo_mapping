@@ -22,8 +22,6 @@ d3.json(url).then(function(data) {
 
   }).addTo(earthquakes);
 
-  //earthquakes.addTo(myMap);
-
   var legend = L.control({
     position: "bottomright"
   });

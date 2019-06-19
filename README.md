@@ -36,5 +36,6 @@ The USGS is responsible for providing scientific data about natural hazards, the
 ## How to Run the App:
 * Create a Mapbox access token: https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
 * Insert token into [config.js](config.js)
-* `python -m http.server`
-* Paste URL link into browser
+* Open a terminal in the downloaded repo and run
+    `python -m http.server`
+* Paste url link into browser: http://localhost:8000/

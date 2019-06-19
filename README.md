@@ -1,4 +1,4 @@
-# Unit 17 | Assignment - Visualizing Data with Leaflet
+# Earthquake Geomapping
 
 ## Background
 
@@ -14,7 +14,7 @@ The USGS is responsible for providing scientific data about natural hazards, the
 
    ![3-Data](Images/3-Data.png)
 
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page provides different data to choose from. Each data set gives a JSON representation of that data. The data set used here was for [all eartuqkaes within the past 7 days](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson).
+   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page provides different data to choose from. Each data set gives a JSON representation of that data. The data set used here was for [all earthquakes within the past 7 days](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson).
 
    ![4-JSON](Images/4-JSON.png)
 

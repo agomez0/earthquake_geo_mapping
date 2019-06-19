@@ -32,3 +32,9 @@ The USGS is responsible for providing scientific data about natural hazards, the
 * Added a number of base maps to choose from.
 
 * Added layer controls to the map.
+
+## How to Run the App:
+* Create a Mapbox access token: https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
+* Insert token into [config.js](config.js)
+* `python -m http.server`
+* Paste URL link into browser
